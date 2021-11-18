@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./library/slick/slick.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <!-- <div class="header">
+        <div class="headerLeft">
+            <img src="./img/iccon.svg" alt="">
+        </div>
+        <div class="headerMid"></div>
+        <div class="headerRight">
+            <div class="whatsapp"><img src="./img/Vector.svg" alt=""></div>
+            <div class="telegram"><img src="./img/tele 2.svg" alt=""></div>
+            <div class="facebook"><img src="./img/Vector (1).svg" alt=""></div>
+        </div>
+    </div> -->
+    <!-- <div class="mainCont">
+        
+    </div> -->
+    <div class="mainCont">
+        <div class="header">
+            <div class="headerLeft">
+                <img src="./img/icon (1).svg" alt="">
+                <p>Web <br> ITeam</p>
+            </div>
+            <div class="navbar-links"></div>
+            <div class="headerRight">
+                <a href="https://web.whatsapp.com/"><div class="whatsapp"><img src="./img/Vector.svg" alt=""></div></a>
+                <a href="https://web.telegram.org/z/"><div class="telegram"><img src="./img/Phone.svg" alt=""></div></a>
+                <a href="https://www.facebook.com/"><div class="facebook"><img src="./img/Vector (1).svg" alt=""></div></a>
+            </div>
+            <a href="#" class="toggle-button">
+                <img src="./img/align-text-justify-svgrepo-com.svg" alt="">
+              </a>
+        </div>
+        <div class="main">
+            <!-- <nav class="navbar">
+                <div class="brand-title">Brand Name</div>
+                <a href="#" class="toggle-button">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </a>
+                <div class="navbar-links">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </nav> -->
+        
+        <div class="firstSlide">
+            <div class="contentOne">
+                <div class="contOneRight">
+                    <h1>Тайная <br> веб-студия </h1>
+                    <h2>Тайная веб-студия города Алматы</h2>
+                    <section>
+
+                        <div class="inner_btn">
+                          <button onclick="openPopup()">Заказать услугу</button>
+                        </div>
+                        <div class="inner_popup">
+                          <div class="popup">
+                            <div class="inner-up-content">
+                              <p>Заказать услугу</p>
+                              <img src="img/krest.svg" alt="" onclick="closePopup()">
+                            </div>
+                            <div class="inner-input">
+                              <form action="" method="post">
+                              <input type="text" class="input-popup one_input" onkeyup="infoInput()" onBlur="this.value=this.value.toUpperCase()" onFocus="this.select()" value="" placeholder="Имя">
+                              <input type="text" class="input-popup two_input" onkeyup="infoInput()" value="" placeholder="Телефон">
+                              <input type="text" class="input-popup free_input" onkeyup="infoInput()" value="" placeholder=" Что разработать?">
+                              </form>
+                              <button class="send_info" onclick="send()" disabled>Oтправить</button>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      
+                </div>
+                <div class="contOneLeft"><img src="./img/Saly-39.png" alt=""></div>
+            </div>
+        </div>
+        <div class="secondSlide">
+            <div class="contentTwo">
+                <div class="contTwoLeft">
+                    <div class="contTwoLeftFlex"> <img src="./img/класс.svg" alt=""><p>Мы гарантируем <br> качественный продукт</p></div>
+                    <div class="contTwoLeftFlex"><img src="./img/дол.svg" alt=""><p>У нас <br> приемлемые <br> цены</p></div>
+                    <div class="contTwoLeftFlex"><img src="./img/часы.svg" alt=""><p>Mы успеем во <br> время!</p></div>
+                </div>
+                <div class="contTwoRight">
+                    <div class="contTwoRightBox">
+                        
+                        <div class="contTwoRightBoxInner"><p>Сайт под ключ</p></div>
+                        <button> Подробнее </button>
+                        
+                    </div>
+                    <div class="contTwoRightBox">
+                        <div class="contTwoRightBoxInner"><p>Сайт по верстке</p></div>
+                        <button> Подробнее </button>
+                    </div>
+                    <div class="contTwoRightBox">
+                        <div class="contTwoRightBoxInner"><p>Индивидуальный <br> дизайн</p></div>
+                        <button> Подробнее </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="thirdSlide">
+            
+            <div class="contentTree">
+                <!-- <div class="contentTreeMargin"></div> -->
+                <div class="contTreeInner">
+                    <div class="contTreeInnerOne">
+                        <div class="contTreeInnerOneCont"><img src="./img/case.png" alt="">
+                        </div>
+                        <div class="contTreeInnerOneCont"><p><b> Lorem ipsum</b> <br> dolor sit amet, consectetur adipisicing elit. Distinctio omnis quis nam ducimus nisi doloribus quae, placeat sunt magni sint vero atque, ipsa mollitia eveniet ea dicta animi alias velit!</p></div>
+                    </div>
+                    <div class="contTreeInnerOne">
+                        <div class="contTreeInnerOneCont">
+                            <img src="./img/case.png" alt="">
+                        </div>
+                        <div class="contTreeInnerOneCont"><p>  <b>  Lorem ipsum</b> <br> dolor sit amet consectetur adipisicing elit. Exercitationem voluptatem eum ex beatae sequi repellendus accusantium iste, rerum mollitia veniam, tempore hic aliquam quis quisquam odit facilis quasi ipsum corporis?</p></div>
+                    </div>
+                    <div class="contTreeInnerOne">
+                        <div class="contTreeInnerOneCont">
+                            <img src="./img/case.png" alt="">
+                        </div>
+                        <div class="contTreeInnerOneCont"><p>  <b>  Lorem ipsum</b> <br> dolor sit amet consectetur adipisicing elit. Exercitationem voluptatem eum ex beatae sequi repellendus accusantium iste, rerum mollitia veniam, tempore hic aliquam quis quisquam odit facilis quasi ipsum corporis?</p></div>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+            
+        </div>
+        <div class="fourthSlide">
+            
+                <div class="sliderFour">
+                    
+                    <div class="sliderFourItem">
+                        <div class="sliderFourItemContent_One">
+                            <div class="frontEnd"> <p> Имя <br> Специальность <br> info@gmail.com </p></div>
+                            <div class="frontEnd"><p> Имя <br> Специальность <br> info@gmail.com </p></div>
+                            <div class="frontEnd"><p> Имя <br> Специальность <br> info@gmail.com </p></div>
+                        </div>
+                    </div>
+                    <div class="sliderFourItem">
+                        <div class="sliderFourItemContent_Two">
+                            <div class="frontEnd"> <p> Имя <br> Специальность <br> info@gmail.com </p></div>
+                            <div class="frontEnd"><p> Имя <br> Специальность <br> info@gmail.com </p></div>
+                            <div class="frontEnd"><p> Имя <br> Специальность <br> info@gmail.com </p></div>
+                        </div>
+                    </div>
+                    <div class="sliderFourItem">
+                        <div class="sliderFourItemContent_Three">
+                            <div class="frontEnd"> <p> Имя <br> Специальность <br> info@gmail.com </p></div>
+                            <div class="frontEnd"><p> Имя <br> Специальность <br> info@gmail.com </p></div>
+                            <div class="frontEnd"><p> Имя <br> Специальность <br> info@gmail.com </p></div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div id="my-arrow-next"></div>
+                    <div id="my-arrow-prev"></div>
+                </div>
+            
+        </div>
+        <div class="fifthSlide">
+            
+                <div class="contentFive">
+                    <div class="contFiveRight">
+                        <div class="contFiveRightTop">
+                            <div class="contFiveRightTop_One">
+                                <p>Имя</p>
+                                <input  type="">
+                                <p>Телефон</p>
+                                <input  type="">
+                            </div>
+                            
+                            <div class="contFiveRightTop_Two">
+                                <p>Почта</p>
+                                <input  type="">
+                                <p>Что разработать?</p>
+                                <input  type="">
+                            </div>
+                            
+                        </div>
+                        <div class="contFiveRightBot">
+                            <p>Описание </p>
+                            <input  type="text">
+                            <button>оставить заявку</button>
+
+                        </div>
+                        
+                    </div>
+                    <div class="contFiveLeft"><p class="zakaz">Оставьте свой заказ на нашем сайте    </p>
+                    <img src="./img/Arrow 1.svg" alt="">
+                    <p class="gde">Где мы находимся?</p>
+                    
+                    <p class="adress">Адрес: г. Алматы, ул. Макатаева, 117 лит А Бизнес <br> центр «LOTOS», офис 423a</p>
+                    <div style="position:relative;overflow:hidden;"><a href="https://yandex.kz/maps/org/1204122481/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Лотос</a><a href="https://yandex.kz/maps/162/almaty/category/business_center/184107509/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Бизнес-центр в Алматы</a><iframe src="https://yandex.kz/map-widget/v1/-/CCUuiYWmdA" width="250" height="200" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+                
+                </div>
+                        
+                </div>
+            
+        </div>
+    </div>
+    </div>
+    </div>
+
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+     crossorigin="anonymous"></script>
+    <script src="./library/slick/slick.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
